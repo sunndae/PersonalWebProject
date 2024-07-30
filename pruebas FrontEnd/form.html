@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Spring</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/script.js"></script>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito Feliz</td>
+                <td>19,90$</td>
+            </tr>
+            <tr>
+                <td>Chanchito Feliz muy feliz</td>
+                <td>29,90$</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: 49,80$</td>
+            </tfoot>
+    </table>
+
+
+    <!--UL = lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+
+    </ul>
+
+    <!-- OL = lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha">Sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 4</li>
+
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for = "nombre">Nombre</label>
+        <input  type = "text" id = "nombre" name = "nombre" placeholder="Ingresa tu nombre"/>
+        <br>
+        <label for = "apellido">Apellido</label>
+        <input type="text" id = "apellido" name = "apellido" placeholder="Ingresa tu apellido"/>
+        <br>
+        <textarea cols = "50" rows = "10" id = "comentario" placeholder="Ingresa un comentario" name = "comentario"></textarea>
+        <br>
+        <label for = "comentario" >Comentario</label>
+        <br>
+        <input type="submit">
+        <button type="submit">Tipo submit </button>
+        <button type="button">Tipo button</button>
+        <button type="reset">Tipo reset</button>
+
+   
+    </form>
+    <h1>Hola mundo!</h1>
+    <p>Este texto es mucho más largo y es para mostrar <br>la etiqueta span!</p>
+    <a target ="_blank" href = "https://google.com"> Ir a Google</a>
+    <br>
+    <img src = "img/background.jpg" width="400px" height="250">
+
+
+</body> 
+</html>

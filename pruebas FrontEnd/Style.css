@@ -1,0 +1,56 @@
+#titulo{
+    color: tomato;
+    
+}
+
+p.texto{
+    color: slateblue
+}
+
+div p {
+
+    color: aquamarine
+}
+
+div h2, div h3{
+
+    color: brown;
+}
+
+/*
+* {
+    font-size: 24px;
+    color: black;
+}
+
+/*
+
+Convención de hexadecimal
+.color{
+    color: #ff0000;
+}
+*/
+
+/*
+Convención de RGB
+
+.color{
+    color:rgb(255,234,0);
+}
+*/
+
+.color{
+    /* border: 5px black solid; */
+    border-style:solid;
+    border-color:blue;
+    border-radius: 5px;
+    border-width: 5px ;
+}
+
+#fondo{
+    background-color: red;
+    background-image: url('img/background.jpg');
+    background-size: 100px 100px;
+    background-repeat: repeat repeat-x;
+}
+
